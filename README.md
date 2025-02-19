@@ -2,6 +2,14 @@
 
 The ScreenState plugin for CapacitorJS allows developers to detect whether a device's screen is locked or unlocked.
 
+# Supported Platforms
+
+| Platform | Supported |
+| -------- | --------- |
+| Android  | ✅        |
+| iOS      | ❌        |
+| Web      | ❌        |
+
 ## Install
 
 ```bash
@@ -13,8 +21,8 @@ npx cap sync
 
 <docgen-index>
 
-* [`isScreenLocked()`](#isscreenlocked)
-* [Interfaces](#interfaces)
+- [`isScreenLocked()`](#isscreenlocked)
+- [Interfaces](#interfaces)
 
 </docgen-index>
 
@@ -35,11 +43,9 @@ Available only on Android.
 
 **Since:** 1.0.0
 
---------------------
-
+---
 
 ### Interfaces
-
 
 #### ScreenLockResult
 
