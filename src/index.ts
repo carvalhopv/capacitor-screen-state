@@ -1,10 +1,9 @@
 import { registerPlugin } from '@capacitor/core';
 
-import type { ScreenStatePluginPlugin } from './definitions';
+import { ScreenStatePlugin } from './definitions';
 
-const ScreenStatePlugin = registerPlugin<ScreenStatePluginPlugin>('ScreenStatePlugin', {
-  web: () => import('./web').then((m) => new m.ScreenStatePluginWeb()),
-});
+const ScreenStatePlugin = registerPlugin<ScreenStatePlugin>('ScreenStatePlugin');
 
 export * from './definitions';
 export { ScreenStatePlugin };
+//# sourceMappingURL=index.js.map

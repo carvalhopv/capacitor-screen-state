@@ -11,9 +11,40 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`isScreenLocked()`](#isscreenlocked)
+* [Interfaces](#interfaces)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### isScreenLocked()
+
+```typescript
+isScreenLocked() => Promise<ScreenLockResult>
+```
+
+Checks if the device's screen is locked.
+
+Available only on Android.
+
+**Returns:** <code>Promise&lt;<a href="#screenlockresult">ScreenLockResult</a>&gt;</code>
+
+**Since:** 1.0.0
+
+--------------------
+
+
+### Interfaces
+
+
+#### ScreenLockResult
+
+| Prop           | Type                 | Description                             | Since |
+| -------------- | -------------------- | --------------------------------------- | ----- |
+| **`isLocked`** | <code>boolean</code> | Indicates whether the screen is locked. | 1.0.0 |
+
 </docgen-api>
